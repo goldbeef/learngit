@@ -40,3 +40,5 @@ git branch -d dev
 git push origin :dev
 -----------------
 git log --graph
+-----------------
+git merge --no-ff -m "merge with no-ff" dev
