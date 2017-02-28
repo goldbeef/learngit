@@ -39,4 +39,4 @@ git merge dev
 git branch -d dev 
 git push origin :dev
 -----------------
-
+git log --graph
