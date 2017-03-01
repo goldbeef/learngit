@@ -44,4 +44,11 @@ git log --graph
 git merge --no-ff -m "merge with no-ff" dev
 -----------------
 debug branch
-    
+-----------------
+git stash
+git stash list
+git stash pop
+git stash apply stash@{0}
+-----------------
+
+
