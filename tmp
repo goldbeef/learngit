@@ -1,0 +1,84 @@
+用法：git [--version] [--help] [-C <path>] [-c name=value]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p|--paginate|--no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+在 '/usr/lib/git-core' 下可用的 git 命令
+
+  add                       merge-one-file
+  add--interactive          merge-ours
+  am                        merge-recursive
+  annotate                  merge-resolve
+  apply                     merge-subtree
+  archive                   merge-tree
+  bisect                    mergetool
+  bisect--helper            mktag
+  blame                     mktree
+  branch                    mv
+  bundle                    name-rev
+  cat-file                  notes
+  check-attr                p4
+  check-ignore              pack-objects
+  check-mailmap             pack-redundant
+  check-ref-format          pack-refs
+  checkout                  patch-id
+  checkout-index            prune
+  cherry                    prune-packed
+  cherry-pick               pull
+  clean                     push
+  clone                     quiltimport
+  column                    read-tree
+  commit                    rebase
+  commit-tree               receive-pack
+  config                    reflog
+  count-objects             relink
+  credential                remote
+  credential-cache          remote-ext
+  credential-cache--daemon  remote-fd
+  credential-store          remote-ftp
+  daemon                    remote-ftps
+  describe                  remote-http
+  diff                      remote-https
+  diff-files                remote-testsvn
+  diff-index                repack
+  diff-tree                 replace
+  difftool                  request-pull
+  difftool--helper          rerere
+  fast-export               reset
+  fast-import               rev-list
+  fetch                     rev-parse
+  fetch-pack                revert
+  filter-branch             rm
+  fmt-merge-msg             send-pack
+  for-each-ref              sh-i18n--envsubst
+  format-patch              shell
+  fsck                      shortlog
+  fsck-objects              show
+  gc                        show-branch
+  get-tar-commit-id         show-index
+  grep                      show-ref
+  hash-object               stage
+  help                      stash
+  http-backend              status
+  http-fetch                stripspace
+  http-push                 submodule
+  imap-send                 subtree
+  index-pack                symbolic-ref
+  init                      tag
+  init-db                   unpack-file
+  instaweb                  unpack-objects
+  log                       update-index
+  ls-files                  update-ref
+  ls-remote                 update-server-info
+  ls-tree                   upload-archive
+  mailinfo                  upload-pack
+  mailsplit                 var
+  merge                     verify-pack
+  merge-base                verify-tag
+  merge-file                web--browse
+  merge-index               whatchanged
+  merge-octopus             write-tree
+
+命令 'git help -a' 和 'git help -g' 显示可用的子命令和一些指南。参见
+'git help <命令>' 或 'git help <指南>' 来查看给定的子命令帮助或指南。
