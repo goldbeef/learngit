@@ -51,4 +51,4 @@ git stash pop
 git stash apply stash@{0}
 -----------------
 
-
+git branch -D dev
