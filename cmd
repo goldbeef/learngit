@@ -52,3 +52,13 @@ git stash apply stash@{0}
 -----------------
 
 git branch -D dev
+-----------------
+git remote
+git remote -v
+-----------------
+git checkout -b dev origin/dev
+git pull
+git pull <remote> <branch>
+git branch --set-upstream dev origin/dev
+ git push origin dev
+ -----------------
