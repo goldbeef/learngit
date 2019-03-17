@@ -1,10 +1,16 @@
-git init
-git add 
-git commit -m
-git status
-git diff filename
-git log
-git log --pretty=oneline
+install git 
+	sudo apt-get install git 
+config 
+	git config --global user.name "goldbeef"
+	git config --global user.eamil "goldbeef@163.com"
+
+	
+git init //初始化目录
+git add file1 //添加文件
+git commit -m　"test" //提交
+git status　//查看状态
+git diff filename　//查看文件变动
+git log [--pretty=oneline]查看日志
 git reset --hard HEAD
     HEAD^ HEAD^^   HEAD~100
 git reset --hard commit_id
