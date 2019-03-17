@@ -9,26 +9,20 @@ git init //初始化目录
 git add file1 //添加文件
 git commit -m　"test" //提交
 git status　//查看状态
-git diff filename　//查看文件变动
+git diff [commit_id] filename　//比较工作区和某个提交的版本
 git log [--pretty=oneline]查看日志
 git reflog //查看git命令的记录
 git reset --hard HEAD　//回退某个版本
     HEAD^ HEAD^^   HEAD~100
-git reset --hard commit_id
+	git reset --hard commit_id
+	git reset HEAD filename 
 git checkout -- filename
-    recover last git_commit/git_add
-git reset HEAD filename 
-    drop the added file to stage
+    撤销操作，回到最近一个 git_commit/git_add
 
-git rm filename
-git commit -m "rm file"
-git checkout -- filename
 
-git remote add origin git@github.com:goldbeef/learngit.git
-
+git remote add origin git@github.com:goldbeef/learngit.git　
 git push -u origin master
 git push  origin master
-
 git clone git@github.com:goldbeef/gitskills.git
 git clone https://github.com/goldbeef/gitskills.git
 
