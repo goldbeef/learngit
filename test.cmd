@@ -19,21 +19,18 @@
 	git checkout -- filename
 		撤销操作，回到最近一个 git-commit/git-add
 	git rm filename //删除文件
+远程仓库:
+	git remote add origin git@github.com:goldbeef/learngit.git　//和远程仓库关联
+	git push -u origin master　//推送到远端
+		git push  origin master
+	git clone git@github.com:goldbeef/gitskills.git //克隆代码
+		git clone https://github.com/goldbeef/gitskills.git
+分支管理:
+	git branch -a //查看所有分支
+	git checkout -b dev　//创建新的分支并切换
+		git branch dev //创建新的
+		git checkout dev　//切换
 
-
-git remote add origin git@github.com:goldbeef/learngit.git　
-git push -u origin master
-git push  origin master
-git clone git@github.com:goldbeef/gitskills.git
-git clone https://github.com/goldbeef/gitskills.git
-
------------------
-git checkout -b dev
-
-git branch dev 
-git checkout dev
-
-git branch
 
 git merge dev
 
