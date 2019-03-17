@@ -1,23 +1,24 @@
-install git 
+安装 git 
 	sudo apt-get install git 
-config 
+配置 git 
 	git config --global user.name "goldbeef"
 	git config --global user.eamil "goldbeef@163.com"
 
-	
-git init //初始化目录
-git add file1 //添加文件
-git commit -m　"test" //提交
-git status　//查看状态
-git diff [commit_id] filename　//比较工作区和某个提交的版本
-git log [--pretty=oneline]查看日志
-git reflog //查看git命令的记录
-git reset --hard HEAD　//回退某个版本
-    HEAD^ HEAD^^   HEAD~100
-	git reset --hard commit_id
-	git reset HEAD filename 
-git checkout -- filename
-    撤销操作，回到最近一个 git_commit/git_add
+本地仓库操作:
+	git init //初始化目录
+	git add file1 //添加文件
+	git commit -m　"test" //提交
+	git status　//查看状态
+	git diff [commit_id] filename　//比较工作区和某个提交的版本
+	git log [--pretty=oneline]查看日志
+	git reflog //查看git命令的记录
+	git reset --hard HEAD　//回退某个版本
+		HEAD^ HEAD^^   HEAD~100
+		git reset --hard commit_id
+		git reset HEAD filename 
+	git checkout -- filename
+		撤销操作，回到最近一个 git-commit/git-add
+	git rm filename //删除文件
 
 
 git remote add origin git@github.com:goldbeef/learngit.git　
