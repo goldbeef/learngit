@@ -11,10 +11,10 @@ git commit -m　"test" //提交
 git status　//查看状态
 git diff filename　//查看文件变动
 git log [--pretty=oneline]查看日志
-git reset --hard HEAD
+git reflog //查看git命令的记录
+git reset --hard HEAD　//回退某个版本
     HEAD^ HEAD^^   HEAD~100
 git reset --hard commit_id
-git reflog
 git checkout -- filename
     recover last git_commit/git_add
 git reset HEAD filename 
