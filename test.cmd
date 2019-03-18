@@ -32,16 +32,16 @@
 		git checkout dev　//切换
 	git push origin dev:dev //创建远端分支　
 
-	git merge dev //合分支
-	
 	git branch -d dev //删除本地分支 
 	git push origin --delete dev //删除远端分支
 
+	git merge dev //合分支
+		冲突解决:
+			手动的将一个一个的文件解决，add, commit 
+	git merge --no-ff -m "merge with no-ff" dev
+		禁用fast-forward
+	git log --graph//查看分支合并图
 
------------------
-git log --graph
------------------
-git merge --no-ff -m "merge with no-ff" dev
 -----------------
 debug branch
 -----------------
