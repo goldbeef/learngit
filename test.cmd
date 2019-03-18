@@ -30,9 +30,14 @@
 	git checkout -b dev　//创建新的分支并切换
 		git branch dev //创建新的
 		git checkout dev　//切换
+	git push origin dev:dev //创建远端分支　
+
 	git merge dev //合分支
-	git branch -d dev //删除分支 
-	git push origin dev:dev　
+	
+	git branch -d dev //删除本地分支 
+	git push origin --delete dev //删除远端分支
+
+
 -----------------
 git log --graph
 -----------------
