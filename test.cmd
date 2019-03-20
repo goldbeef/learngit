@@ -60,7 +60,19 @@
 	git tag v0.1 //创建tag
 		－a //签名
 		-m //描述
+	git tag v0.1 12321312//在某个提交上打标签
+	
 	git tag //查看所有tag
 	git show v0.1 //查看指定版本的tag 
+	
+	git tag -d v0.1 //本地删除tag
+	git push origin v0.1 //推送指定tag到远端
+	git push origin --tags //一次推送所有tag到远端
+
+
+	git tag -d v0.1 //删除远端tag
+	git push origin refs/tags/v0.1
+
+	git fetch origin --tags//拉去远端所有tag
 
 	
