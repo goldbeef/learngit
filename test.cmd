@@ -34,6 +34,7 @@
 
 	git branch -d dev //删除本地分支 
 	git push origin --delete dev //删除远端分支
+	git branch -D dev //强制删除某个未合并分支
 
 	git merge dev //合分支
 		冲突解决:
@@ -47,16 +48,11 @@
 	git stash pop　//pop一个状态
 	git stash apply stash@{0}　//使用一个状态　
 	git stash drop stash@{0} //删除一个状态
+多人协作
+	git remote //查看远端分支
+		git remote -v
 
-git branch -D dev
------------------
-git remote
-git remote -v
------------------
-git checkout -b dev origin/dev
-git pull
-git pull <remote> <branch>
-git branch --set-upstream dev origin/dev
- git push origin dev
- o
- -----------------
+	git checkout -b dev origin/dev //从远端拉取分支
+	git pull　//远端拉取代码
+	git push origin dev //代码推到远端
+	git branch --set-upstream dev origin/dev　//设置本地和远端的关联
