@@ -41,15 +41,12 @@
 	git merge --no-ff -m "merge with no-ff" dev
 		禁用fast-forward
 	git log --graph//查看分支合并图
-
------------------
-debug branch
------------------
-git stash
-git stash list
-git stash pop
-git stash apply stash@{0}
------------------
+暂存状态:
+	git stash //保存状态
+	git stash list　//查看状态
+	git stash pop　//pop一个状态
+	git stash apply stash@{0}　//使用一个状态　
+	git stash drop stash@{0} //删除一个状态
 
 git branch -D dev
 -----------------
