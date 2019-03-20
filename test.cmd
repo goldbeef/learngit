@@ -74,5 +74,14 @@
 	git push origin refs/tags/v0.1
 
 	git fetch origin --tags//拉去远端所有tag
-
+使用github
+	git clone git@github.com:michaelliao/bootstrap.git //拉取代码
+	git config --global color.ui true　//颜色配置
+	．gitignore //忽略特定的文件/文件夹, 需要提交到git上
+别名配置
+	git config --global alias.st status　　
+	git config --global alias.co checkout
+	git config --global alias.ci commit
+	git config --global alias.br branch
+	git config --global alias.unstage 'reset HEAD'
 	
