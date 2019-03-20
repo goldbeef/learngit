@@ -56,3 +56,11 @@
 	git pull　//远端拉取代码
 	git push origin dev //代码推到远端
 	git branch --set-upstream dev origin/dev　//设置本地和远端的关联
+标签管理
+	git tag v0.1 //创建tag
+		－a //签名
+		-m //描述
+	git tag //查看所有tag
+	git show v0.1 //查看指定版本的tag 
+
+	
